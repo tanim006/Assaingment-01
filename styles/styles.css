@@ -29,10 +29,108 @@ body{
 .container .text2{
     color:orange;
     position: absolute;
-    left: auto;
     top: 30%;
     left: 30%;
     font-size: 72px;
     text-align: center;
     font-family: Merriweather;
+}
+.off{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 120px 609px 0px 609px;
+}
+ .our{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 48px;
+}
+.all{
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 16px;
+}
+.second-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px ;
+}
+.welcome-img{
+    background-image: url('/resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 98px;
+} 
+.welcome-img .welcome{
+    color:white;
+    position: absolute;
+    top:5%;
+    left:10%;
+    font-family: Merriweather;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+}
+.welcome-img .welcome-description{
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    position: absolute;
+    top:50%;
+    left:10%;
+}
+.join{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    position:absolute;
+    top:80%;
+    left:10%;
+}
+.group{
+    position: absolute;
+    top:20%;
+    left:70%;
+}
+.gradient-part{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 480px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px ;
+
 }
