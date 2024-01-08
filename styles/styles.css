@@ -1,8 +1,9 @@
-body{
+body {
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
 }
-.container{
+
+.container {
     background-image: url('../resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
@@ -12,12 +13,13 @@ body{
     margin-right: auto;
 
 }
-.container .text{
-    color:  white;
+
+.container .text {
+    color: white;
     position: absolute;
     left: 50%;
     top: 20%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #FFF;
     text-align: center;
     font-size: 32px;
@@ -26,8 +28,9 @@ body{
     line-height: normal;
     font-family: Merriweather;
 }
-.container .text2{
-    color:orange;
+
+.container .text2 {
+    color: orange;
     position: absolute;
     top: 30%;
     left: 30%;
@@ -35,45 +38,50 @@ body{
     text-align: center;
     font-family: Merriweather;
 }
-.off{
+
+.off {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 120px 609px 0px 609px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px 609px 0px 609px;
 }
- .our{
+
+.our {
     color: #F00;
 
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-top: 48px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
 }
-.all{
+
+.all {
     color: #070211;
 
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
 }
-.second-img{
+
+.second-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 48px ;
+    margin-top: 48px;
 }
-.welcome-img{
+
+.welcome-img {
     background-image: url('/resources/Vectorrr.png');
     width: 1320px;
     height: 600px;
@@ -82,32 +90,35 @@ margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 98px;
-} 
-.welcome-img .welcome{
-    color:white;
+}
+
+.welcome-img .welcome {
+    color: white;
     position: absolute;
-    top:5%;
-    left:10%;
+    top: 5%;
+    left: 10%;
     font-family: Merriweather;
     color: #FFF;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    line-height: 88px; 
+    line-height: 88px;
     letter-spacing: 7.04px;
 }
-.welcome-img .welcome-description{
+
+.welcome-img .welcome-description {
     color: white;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
     position: absolute;
-    top:50%;
-    left:10%;
+    top: 50%;
+    left: 10%;
 }
-.join{
+
+.join {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -116,21 +127,37 @@ margin-top: 16px;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    position:absolute;
-    top:80%;
-    left:10%;
-}
-.group{
     position: absolute;
-    top:20%;
-    left:70%;
+    top: 80%;
+    left: 10%;
 }
-.gradient-part{
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 1320px;
-    height: 480px;
-    justify-content: center;
-    margin: auto;
-    margin-top: 120px ;
 
+.group {
+    position: absolute;
+    top: 20%;
+    left: 70%;
 }
+/* gradient section */
+.gradient-container .red-black {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    left: 50%;
+}
+.gradient-img{
+    background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    border-radius: 16px;
+}
+.gradient-container{
+    display: flex;
+    align-items: center;
+}
+    
