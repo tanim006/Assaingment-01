@@ -248,7 +248,7 @@ body {
     border: 15px solid #F00;
     position: absolute;
     right: 30%;
-    margin-top: -326.5px ;
+    margin-top: -326.5px;
 }
 
 .back {
@@ -322,29 +322,215 @@ body {
     height: 230px;
     margin-top: 600px;
 }
-.box{
+
+.box {
     display: block;
     margin-left: 200px;
     margin-top: -650px;
 }
-.women{
+
+.women {
     display: block;
     margin-left: 1175px;
     margin-top: -676px;
     width: 429px;
     height: 433px;
 }
-.circle-two{
+
+.circle-two {
     width: 220px;
     height: 220px;
     border-radius: 463px;
     border: 15px solid white;
     position: absolute;
     right: 30%;
-    margin-top: -300px ;
+    margin-top: -300px;
 }
-.discount{
+
+.discount {
     position: absolute;
     right: 28.5%;
-    margin-top: -326.5px ;   
+    margin-top: -326.5px;
+}
+
+.best-gift {
+    margin-top: 400px;
+    margin-left: 260px;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.awe {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+
+}
+
+.intro {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -20px;
+}
+
+.bag {
+    width: 424px;
+    height: 450px;
+}
+
+.black-bag {
+    width: 424px;
+    height: 450px;
+    margin-left: 40px;
+}
+
+.shoe {
+    width: 424px;
+    height: 450px;
+    margin-left: 40px;
+}
+
+.white-shoe {
+    width: 424px;
+    height: 450px;
+    margin-left: 40px;
+    margin-top: 24px;
+}
+
+.churi {
+    width: 424px;
+    height: 450px;
+    margin-left: 40px;
+}
+
+.second-gradient {
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.email {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -550px;
+}
+
+.news-letter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.news-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -20px;
+}
+
+.button-rec {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.red-button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    display: flex;
+    margin-right: auto;
+    margin-left: 1200px;
+    margin-top: -90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.footer {
+    background-color: #070211;
+    width: 100%;
+    height: 609px;
+    margin-top: 200px;
+}
+
+.big {
+    color: white;
+    display: block;
+    margin-left: 200px;
+    margin-top: -500px;
+    /* text-align: left; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.number {
+    color: white;
+    margin-left: 1500px;
+    margin-top: -100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    
+    
+
 }
